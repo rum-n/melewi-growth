@@ -1,0 +1,14 @@
+.clients {
+    display: flex;
+    justify-content: center;
+    margin-top: 10rem;
+    margin-bottom: 3rem;
+    padding: 2rem;
+}
+
+.clients img {
+    width: 100%;
+    max-width: 600px;
+    margin: auto;
+    padding: 0 1rem;
+}
