@@ -1,0 +1,59 @@
+.target-title {
+    font-size: 2.5rem;
+    text-align: center;
+    margin: 0;
+}
+
+.target-subtitle {
+    text-align: center;
+    margin: 0.5rem;
+}
+
+.target {
+    margin-top: 5rem;
+    width: auto;
+}
+
+.target-list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    /* justify-content: center; */
+    justify-content: space-around;
+    padding: 1rem 10rem;
+    margin-top: 2rem;
+}
+
+.target-card {
+    padding: 1rem 0.5rem;
+    /* background-color: #5e19861c; */
+    width: 30%;
+    margin-bottom: 3rem;
+}
+
+.target-card h3 {
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.target-card img {
+    width: 90%;
+    height: 15rem;
+    margin: auto;
+}
+
+.target-card p {
+    padding: 1rem;
+    line-height: 1.5rem;
+}
+
+.target-card ul {
+    list-style: none;
+    padding-left: 1rem;
+}
+
+.target-card li img{
+    width: 10px;
+    height: auto;
+    margin: 0 1rem 0 0;
+}

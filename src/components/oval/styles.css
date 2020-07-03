@@ -1,0 +1,6 @@
+.oval-wrapper {
+    position: absolute;
+    right: 0;
+    top: 5rem;
+    z-index: -1;
+}
