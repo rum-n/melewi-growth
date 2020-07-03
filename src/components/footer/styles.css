@@ -1,9 +1,55 @@
 footer {
+    display: flex;
+    flex-direction: row;
     width: 100%;
-    height: 15rem;
+    height: auto;
     background-color: rgba(0, 0, 0, 0.05);
     margin-top: 3rem;
+    padding-bottom: 2rem;
+}
+
+footer button {
+    width: auto;
+    max-width: 10rem;
+    background: #FF517B;
+    background-image: linear-gradient(90deg, #b1a2a6 0%, #908884 100%);
+    border-radius: 4px;
+    color: white;
+    font-size: 1.1rem;
+    padding: 15px 30px;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+footer button:hover {
+    background: #b1a2a6;
+    box-shadow: 10px 11px 14px -10px rgba(0,0,0,0.2);
+}
+
+footer ul {
+    list-style: none;
+    padding-left: 0;
+    line-height: 1.8rem;
+}
+
+.footer-logo {
     display: flex;
+    flex-direction: column;
+    margin-left: 3rem;
+}
+
+.footer-menu,
+.blog-feature,
+.footer-cta {
+    margin-left: 6rem;
+    margin-top: 2rem;
+}
+
+footer img {
+    width: 10rem;
+    height: 3rem;
+    margin-top: 4rem;
+    margin-left: 4rem;
 }
 
 footer p {
@@ -13,12 +59,8 @@ footer p {
     margin-bottom: 0;
 }
 
-footer p img{
-    width: 1rem;
-}
-
 .credits {
-    padding-right: 1rem;
+    margin-left: 4rem;
 }
 
 footer a,
