@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import './styles.css';
 import logo from './../../img/logo.png';
 
@@ -10,7 +11,7 @@ const Footer = () => {
                 <p className='credits'>Created by <a href='https://melewi.net'>Melewi</a> © 2020. <br/> All rights reserved.</p>
             </div>
             <div className='footer-menu'>
-                <h3>Our services</h3>
+                <Link to='/services'><h3>Our services</h3></Link>
                 <ul>
                     <li>Web Design</li>
                     <li>Mobile Design</li>
@@ -21,8 +22,8 @@ const Footer = () => {
                 </ul>
             </div>
             <div className='blog-feature'>
-                <h3>Pricing</h3>
-                <h3>Case Studies</h3>
+                <Link to='/pricing'><h3>Pricing</h3></Link>
+                <Link to='case-studies'><h3>Case Studies</h3></Link>
                 <h3>Featured from our blog</h3>   
                 <ul>
                     <li><a href='https://melewi.net/blog/2016/10/11/4-things-to-think-about-before-creating-your-product/'>4 Things to Think About Before Creating Your Product</a></li>

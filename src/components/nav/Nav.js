@@ -17,6 +17,7 @@ const Navigation = () => {
                 <li><NavLink to='/case-studies'>Case Studies</NavLink></li>
                 <li><NavLink to='/pricing'>Pricing</NavLink></li>
                 <li><a href='https://melewi.net/blog'>Blog</a></li>
+                <li><NavLink to='/affiliates'>Affiliates</NavLink></li>
                 <li><button className='btn-cta'>Book a call</button></li>
             </ul>
         </nav>         

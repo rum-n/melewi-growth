@@ -1,0 +1,16 @@
+.about-footer {
+    display: flex;
+    width: 100%;
+    height: auto;
+    background-color: #ff517a0e;
+    margin-top: 3rem;
+}
+
+.about-footer p {
+    font-size: 0.8rem;
+    font-weight: 600;
+    padding: 2rem 10rem;
+    margin: 0;
+    line-height: 1.5rem;
+    text-align: justify;
+}

@@ -7,6 +7,7 @@ import CaseStudies from './pages/CaseStudies';
 import Pricing from './pages/Pricing';
 import Navigation from './components/nav/Nav';
 import Footer from './components/footer/Footer';
+import AboutFooter from './components/aboutFooter/AboutFooter';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
         <Route path='/case-studies' component={CaseStudies}/>
         <Route path='/pricing' component={Pricing}/>
       </Switch>
+      <AboutFooter/>
       <Footer/>
   </Router>
   );

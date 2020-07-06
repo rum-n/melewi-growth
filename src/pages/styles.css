@@ -1,6 +1,5 @@
 .title {
     font-size: 3.5rem;
-    text-align: left;
     margin-left: 7rem;
     margin-top: 6rem;
     line-height: 4rem;
@@ -82,3 +81,104 @@
   display: inline-block;
   margin-left: 4rem;
 }
+
+.pricing-content {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  margin: 5rem auto;
+}
+
+.pricing-content h2 {
+  text-align: center;
+}
+
+.pricing-content h1 {
+  text-align: center;
+  margin: 0;
+}
+
+.pricing-options {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+}
+
+.price-plan {
+  width: 31%;
+  height: 25rem;
+  border: 3px solid #5E1986;
+  border-radius: 3%;
+  -webkit-box-shadow: 11px 8px 5px -4px rgba(184,184,184,0.51);
+  -moz-box-shadow: 11px 8px 5px -4px rgba(184,184,184,0.51);
+  box-shadow: 11px 8px 5px -4px rgba(184,184,184,0.51);
+}
+
+.price-plan h3 {
+  font-size: 1.7rem;
+  text-decoration: underline;
+  text-align: center;
+}
+
+.price-plan p {
+  margin-left: 1rem;
+  margin-right: 1rem;
+  color: #FF517B;
+  font-weight: 600;
+  text-align: center;
+}
+
+.price {
+  font-size: 2.3rem;
+  color: #5E1986 !important;
+}
+
+.features ul {
+  list-style: none;
+  padding-left: 1rem;
+}
+
+.features img {
+  width: 10px;
+  height: auto;
+  margin: 0 1rem 0 0;
+}
+
+.portfolio {
+  display: flex;
+  flex-direction: column;
+  margin-top: 4rem;
+}
+
+.portfolio img {
+  width: 100%;
+  margin-top: 1rem;
+}
+
+.case-summary h2{
+  text-align: left;
+}
+
+.case-summary {
+  width: 45%;
+  margin-top: -18.5rem;
+  padding: 2rem;
+  color: white;
+  font-weight: 400;
+}
+
+.case-summary-right {
+  width: 45%;
+  margin-top: -18.5rem;
+  padding: 2rem;
+  color: white;
+  font-weight: 400;
+  margin-left: 26rem;
+}
+
+.case-summary-right h2{
+  text-align: left;
+}
+

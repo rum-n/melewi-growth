@@ -8,3 +8,18 @@
 .process-wrapper {
     margin-top: 5rem;
 }
+
+.process-list h3{
+    font-size: 1.5rem; 
+}
+
+.process-list span {
+    font-size: 2rem;
+    margin-right: 1rem;
+}
+
+.process-list {
+    margin-left: auto;
+    margin-top: 5rem;
+    width: 60%;
+}

@@ -1,9 +1,11 @@
 import React from 'react';
 import Clients from './../components/clients/Clients';
+import { Link } from 'react-router-dom';
 import Oval from './../components/oval/Oval';
 import ServiceList from './../components/serviceList/ServiceList';
 import Target from './../components/target/Target';
 import Process from './../components/process/Process';
+import Contact from './../components/contact/Contact';
 import './styles.css';
 
 const Home = () => {
@@ -15,7 +17,7 @@ const Home = () => {
             <Oval/>
             <div className='header-buttons'>
                 <button className='btn-cta'>Book a call</button>
-                <button className='btn-see-more'>See how we can help</button>
+                <Link to='/services'><button className='btn-see-more'>See how we can help</button></Link>
             </div>
             <Clients/>
             <div className='clients-intro'>
@@ -25,6 +27,7 @@ const Home = () => {
             <ServiceList/>
             <Target/>
             <Process/>
+            <Contact/>
         </div>
     </div>
     );
