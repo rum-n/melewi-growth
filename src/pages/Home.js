@@ -16,7 +16,7 @@ const Home = () => {
         <div className='main-content'>
             <Oval/>
             <div className='header-buttons'>
-                <button className='btn-cta'>Book a call</button>
+                <a href='https://cal.mixmax.com/rumenmanev/30'><button className='btn-cta'>Book a call</button></a>
                 <Link to='/services'><button className='btn-see-more'>See how we can help</button></Link>
             </div>
             <Clients/>

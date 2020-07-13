@@ -18,7 +18,7 @@ const Navigation = () => {
                 <li><NavLink to='/pricing'>Pricing</NavLink></li>
                 <li><a href='https://melewi.net/blog'>Blog</a></li>
                 <li><NavLink to='/affiliates'>Affiliates</NavLink></li>
-                <li><button className='btn-cta'>Book a call</button></li>
+                <li><a href='https://cal.mixmax.com/rumenmanev/30'><button className='btn-cta'>Book a call</button></a></li>
             </ul>
         </nav>         
     </header>

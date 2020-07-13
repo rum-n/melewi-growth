@@ -34,7 +34,7 @@ const Footer = () => {
             </div>
             <div className='footer-cta'>
                 <h3>Want to know more?</h3>
-                <button>Book a call</button>
+                <a href='https://cal.mixmax.com/rumenmanev/30'><button>Book a call</button></a>
                 <h3>Want to join the team?</h3>
                 <button>Apply here</button>
             </div>

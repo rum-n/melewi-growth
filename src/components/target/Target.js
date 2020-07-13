@@ -41,7 +41,7 @@ const Target = () => {
                         <li style={{fontWeight: '800'}}><img src={bullet} alt='Melewi Pettel'/>We'll adopt your brand as our own.</li>
                     </ul>
                 </div>
-                <button className='btn-cta'>Book a call</button>
+                <a href='https://cal.mixmax.com/rumenmanev/30'><button className='btn-cta'>Book a call</button></a>
             </div>
         </div>
     )
