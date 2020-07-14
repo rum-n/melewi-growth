@@ -40,14 +40,14 @@ const Pricing = () => {
                 <p className='price'>$10,800</p>
                 <div className='features'>
                     <ul>
-                        <li><img src={bullet} alt='Melewi Pettel'/>120 hours of design work</li>
-                        <li><img src={bullet} alt='Melewi Pettel'/>up to 12 hours response time</li>
-                        <li><img src={bullet} alt='Melewi Pettel'/>dedicated project manager</li>
+                        <li><img src={bullet} alt='Melewi Flower'/>120 hours of design work</li>
+                        <li><img src={bullet} alt='Melewi Flower'/>up to 12 hours response time</li>
+                        <li><img src={bullet} alt='Melewi Flower'/>dedicated project manager</li>
                     </ul>
                 </div>
             </div>
         </div>
-        <a href='https://cal.mixmax.com/rumenmanev/30'><button className='btn-cta'>Book a call</button></a>
+        {/* <a href='https://cal.mixmax.com/rumenmanev/30'><button className='btn-cta'>Book a call</button></a> */}
 
         <h1 className='title'>FAQ</h1>
         <Faq/>
