@@ -16,5 +16,10 @@
 @media screen and (max-width: 1200px) {
     .clients {
         flex-direction: column;
+        margin-top: 4rem;
+        margin-bottom: 2rem;
+    }
+    .clients img {
+        padding: 0;
     }
 }

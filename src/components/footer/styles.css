@@ -81,7 +81,7 @@ footer a:hover {
     .footer-menu,
     .blog-feature,
     .footer-cta {
-    margin-left: 2rem;
+    margin-left: 0.5rem;
     margin-top: 2rem;
     }
     .footer-logo {
@@ -90,9 +90,12 @@ footer a:hover {
     footer img {
         width: 10rem;
         height: auto;
-        margin-left: 2rem;
+        margin-left: 0.5rem;
     }
     .credits {
-        margin-left: 2rem;
+        margin-left: 0.5rem;
+    }
+    footer button {
+        font-size: 0.8rem;
     }
 }
