@@ -15,31 +15,18 @@ nav {
     padding-right: 4rem;
 }
 
-@media screen and (min-width: 851px) {
-    .menu li {
-        display: inline-block;
-        font-weight: 600;
-        margin-left: 3rem;
-        cursor: pointer;
-    }
-    
-    .menu {
-        font-size: 1.2em;
-        text-align: right;
-    }
-  }
+.menu li {
+    display: inline-block;
+    font-weight: 600;
+    margin-left: 3rem;
+    cursor: pointer;
+}
+
+.menu {
+    font-size: 1.2em;
+    text-align: right;
+}
   
-  /* If the screen size is 850px wide or less */
-  @media screen and (max-width: 850px) {
-    .menu li {
-        list-style: none;
-        margin-right: 20px;
-    }
-    
-    nav {
-        padding-right: 0.5rem;
-    }
-  }
 
   .menu a:hover,
   .menu a:active,

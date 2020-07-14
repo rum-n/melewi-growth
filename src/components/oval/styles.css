@@ -4,3 +4,9 @@
     top: 5rem;
     z-index: -1;
 }
+
+@media screen and (max-width: 1200px) {
+    .oval-wrapper {
+        display: none;
+    }
+}

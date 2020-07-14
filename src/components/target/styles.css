@@ -18,7 +18,6 @@
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    /* justify-content: center; */
     justify-content: space-around;
     padding: 1rem 10rem;
     margin-top: 2rem;
@@ -26,7 +25,6 @@
 
 .target-card {
     padding: 1rem 0.5rem;
-    /* background-color: #5e19861c; */
     width: 30%;
     margin-bottom: 3rem;
 }
@@ -56,4 +54,15 @@
     width: 10px;
     height: auto;
     margin: 0 1rem 0 0;
+}
+
+@media screen and (max-width: 1200px) {
+    .target-list {
+        flex-direction: column;
+        flex-wrap: nowrap;
+        padding: 2rem 2rem;
+    }
+    .target-card {
+        width: 100%;
+    }
 }

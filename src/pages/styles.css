@@ -12,6 +12,11 @@
         line-height: 2rem;
         margin-left: 1rem;
     }
+    .header-buttons {
+      display: flex;
+      flex-direction: column;
+      margin-left: 0;
+    }
   }
 
 #spin {
@@ -188,3 +193,10 @@
   text-align: left;
 }
 
+
+/* @media screen and (max-width: 1200px) {
+  .header-buttons {
+    display: inline-block;
+    margin-left: 0;
+  }
+} */

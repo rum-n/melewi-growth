@@ -28,3 +28,23 @@
     display: flex;
     align-content: center;
 }
+
+@media screen and (max-width: 1200px) {
+    .services-wrapper {
+        flex-direction: column;
+        padding: 3rem 3rem;
+    }
+    .service-img{
+        margin-left: 0;
+    }
+    .service-img img{
+        width: 20rem;
+    }
+    .services-list {
+        margin-top: 0;
+        margin-bottom: 2rem;
+    }
+    .services-list li {
+        font-size: 2rem;
+    }
+}
