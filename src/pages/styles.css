@@ -13,10 +13,17 @@
         margin-left: 1rem;
     }
     .header-buttons {
-      display: flex;
-      flex-direction: column;
-      margin-left: 0;
-      font-size: 0.8rem;
+      display: flex!important;
+      flex-direction: column!important;
+      margin-left: 0!important;      
+    }
+    .btn-cta {
+      font-size: 0.8rem!important;
+    }
+    .btn-see-more {
+      font-size: 0.8rem!important;
+      margin-left: 0!important;
+      margin-top: 1rem;
     }
   }
 
