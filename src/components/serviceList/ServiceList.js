@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import ServiceOval from './../serviceOval/ServiceOval';
+// import ServiceOval from './../serviceOval/ServiceOval';
 import webDesignImg from './../../img/webDesignImg.png';
 import mobileMcd from './../../img/mobileMcd.png';
 import frontend from './../../img/frontend.png';
@@ -31,7 +31,7 @@ const ServiceList = () => {
                 </ul>
             </div>
             <div>
-                <ServiceOval/>
+                {/* <ServiceOval/> */}
                 <div className='service-img'>
                     <img src={image} alt='Web Design'/>
                 </div>
