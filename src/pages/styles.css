@@ -100,6 +100,8 @@
   margin-left: 4rem;
 }
 
+/* PRICING */
+
 .pricing-content {
   display: flex;
   flex-direction: column;
@@ -165,6 +167,8 @@
   margin: 0 1rem 0 0;
 }
 
+/* CASE STUDIES */
+
 .portfolio {
   display: flex;
   flex-direction: column;
@@ -202,9 +206,24 @@
 }
 
 
-/* @media screen and (max-width: 1200px) {
-  .header-buttons {
-    display: inline-block;
-    margin-left: 0;
-  }
-} */
+/* SERVICES */
+
+.services-page-wrapper {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-top: 3rem;
+  margin-bottom: 5rem;
+  padding: 0;
+}
+
+.service-card {
+  width: 47%;
+  height: 20rem;
+  margin-top: 1.5rem;
+  border: 3px solid #5E1986;
+  -webkit-box-shadow: 11px 8px 5px -4px rgba(184,184,184,0.51);
+  -moz-box-shadow: 11px 8px 5px -4px rgba(184,184,184,0.51);
+  box-shadow: 11px 8px 5px -4px rgba(184,184,184,0.51);
+}
