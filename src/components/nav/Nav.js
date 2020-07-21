@@ -13,11 +13,11 @@ const Navigation = () => {
         </Link>
         <nav>
             <ul className='menu'>
-                <li><NavLink to='/services'>How we can help</NavLink></li>
+                <li><a href='#services'>How we can help</a></li>
                 <li><NavLink to='/case-studies'>Case Studies</NavLink></li>
-                <li><NavLink to='/pricing'>Pricing</NavLink></li>
+                <li><a href='#pricing'>Pricing</a></li>
                 <li><a href='https://melewi.net/blog'>Blog</a></li>
-                <li><NavLink to='/affiliates'>Affiliates</NavLink></li>
+                {/* <li><NavLink to='/affiliates'>Affiliates</NavLink></li> */}
                 <li><a href='https://cal.mixmax.com/rumenmanev/30'><button className='nav-cta'>Book a call</button></a></li>
             </ul>
         </nav>         

@@ -36,7 +36,7 @@ const Target = () => {
     };
 
     return (
-        <div className='target'>
+        <div className='target' id='services'>
             <h2 className='target-title'>Who can benefit from our offering?</h2>
             <h3 className='target-subtitle'>Just a few examples of the teams we've helped</h3>
             <div className='target-list'>

@@ -6,7 +6,7 @@ import Faq from './../components/FAQ/Faq';
 const Pricing = () => {
 
     return (
-    <div className='pricing-content'>
+    <div className='pricing-content' id='pricing'>
         <h1 className='title'>Pricing</h1>
         <p>Our pricing is flexibly created to fit every design need. <br/> Still, if there's something else you have in mind, feel free to <br/> reach out to us and we'll be happy to discuss a custom price plan.</p>
         <div className='pricing-options'>
