@@ -1,7 +1,9 @@
+/* HOMEPAGE */
+
 .title {
     font-size: 3.5rem;
-    margin-left: 7rem;
-    margin-top: 6rem;
+    margin-left: 8rem;
+    margin-top: 7rem;
     line-height: 4rem;
     font-weight: 800;
 }
@@ -46,13 +48,13 @@
 
 .btn-cta {
   width: auto;
-  max-width: 10rem;
+  max-width: 20rem;
   background: #FF517B;
   background-image: linear-gradient(90deg, #FF517B 0%, #FF7023 100%);
-  border-radius: 4px;
+  border-radius: 10px;
   color: white;
   font-size: 1.1rem;
-  padding: 15px 30px;
+  padding: 1.5rem 5rem;
   cursor: pointer;
   font-weight: 600;
 }
@@ -64,30 +66,34 @@
 
 .btn-see-more {
   width: auto;
-  max-width: 15rem;
-  border: 2px solid #FF517B;
-  border-radius: 4px;
-  color: #FF517B;
+  max-width: 20rem;
+  border: 1.5px solid rgba(45,52,79,0.32);
+  border-radius: 10px;
+  color: #2d344fcc;
   font-size: 1.1rem;
-  padding: 14px 10px;
+  padding: 1.5rem 2.8rem;
   cursor: pointer;
   font-weight: 600;
   margin-left: 1rem;
 }
 
 .btn-see-more:hover {
-  background: #FF517B;
+  background: #2d344fcc;
   color: white;
   box-shadow: 10px 11px 14px -10px rgba(0,0,0,0.2);
 }
 
 .pricing-cta {
-  margin-bottom: 5rem;
   margin-left: 40%;
+  border: none;
 }
 
 .clients-intro {
   text-align: center;
+}
+
+.clients-intro h2 {
+  font-size: 2rem;
 }
 
 .clients-intro p {
@@ -97,7 +103,15 @@
 
 .header-buttons {
   display: inline-block;
-  margin-left: 4rem;
+  margin-left: 5.5rem;
+}
+
+.lottie {
+  position: absolute;
+  right: 0;
+  top:0;
+  margin-top: 10rem;
+  margin-right: 10rem;
 }
 
 /* PRICING */
@@ -106,63 +120,82 @@
   display: flex;
   flex-direction: column;
   width: 65%;
-  margin: 5rem auto;
+  margin-top: -17rem;
+  width: 100%;
+  background: linear-gradient(132.75deg, #5E1986 0%, #34238A 100%);
+  padding-bottom: 15rem;
 }
 
-.pricing-content h2 {
+.pricing-content p {
   text-align: center;
+  color: #fff;
+  font-size: 1.1rem;
 }
 
 .pricing-content h1 {
   text-align: center;
-  margin: 0;
+  margin: 15rem 0 0 0;
+  color: #fff;
+  font-size: 2.2rem;
 }
 
 .pricing-options {
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
-  margin-top: 5rem;
-  margin-bottom: 5rem;
+  justify-content: center;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+
+.best-deal {
+  background: #F9FAFD!important;
+  border-radius: 0!important;
+  z-index: 1000;
+  border-left: 1px solid rgba(0, 0, 0, 0.1);
+  border-right: 1px solid rgba(0, 0, 0, 0.1);
+  margin-left: -0.5rem;
+  margin-right: -0.5rem;
 }
 
 .price-plan {
-  width: 31%;
+  width: 25%;
   height: 28rem;
-  border: 3px solid #5E1986;
-  border-radius: 3%;
-  -webkit-box-shadow: 11px 8px 5px -4px rgba(184,184,184,0.51);
-  -moz-box-shadow: 11px 8px 5px -4px rgba(184,184,184,0.51);
-  box-shadow: 11px 8px 5px -4px rgba(184,184,184,0.51);
+  background: #fff;
+  border-radius: 10px;
+}
+
+.price-summary {
+  color:rgba(45,52,79,0.7)!important;
+  padding-left: 1rem;
+  padding-right: 1rem;
 }
 
 .price-plan h3 {
   font-size: 1.7rem;
-  text-decoration: underline;
   text-align: center;
 }
 
 .price-plan p {
   margin-left: 1rem;
   margin-right: 1rem;
-  color: #FF517B;
-  font-weight: 600;
   text-align: center;
 }
 
 .price {
-  font-size: 2.3rem;
-  color: #5E1986 !important;
+  font-size: 2.8rem!important;
+  font-weight: 600;
+  color: #FF517B !important;
 }
 
 .features ul {
   list-style: none;
-  padding-left: 1rem;
-  line-height: 1.4rem;
+  padding-left: 2rem;
+  line-height: 1.7rem;
+  font-size: 1.1rem;
 }
 
 .features img {
-  width: 10px;
+  width: 12px;
   height: auto;
   margin: 0 1rem 0 0;
 }

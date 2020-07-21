@@ -1,21 +1,27 @@
 .clients {
     display: flex;
+    flex-direction: column;
     justify-content: center;
-    margin-top: 8rem;
-    margin-bottom: 3rem;
+    margin: 12rem auto 6rem;
     padding: 2rem;
+    background: #F9FAFD;
+    width: 70%;
+    height: 20rem;
+}
+
+.grey-logo {
+    width: 3rem;
+    margin: auto;
 }
 
 .clients img {
-    width: 100%;
-    max-width: 600px;
+    width: 90%;
     margin: auto;
     padding: 0 1rem;
 }
 
 @media screen and (max-width: 1200px) {
     .clients {
-        flex-direction: column;
         margin-top: 4rem;
         margin-bottom: 2rem;
     }
