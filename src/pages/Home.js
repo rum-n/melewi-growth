@@ -32,7 +32,7 @@ const Home = () => {
 
             <div className='header-buttons'>
                 <a href='https://cal.mixmax.com/rumenmanev/30'><button className='btn-cta'>Book a call</button></a>
-                <Link to='/services'><button className='btn-see-more'>See how we can help</button></Link>
+                <a href='#services'><button className='btn-see-more'>See how we can help</button></a>
             </div>
             <Clients/>
             <div className='clients-intro'>
@@ -40,7 +40,9 @@ const Home = () => {
                 <p>Whether it's a complete website overhaul or a quick <br/> presentation you need to do this Friday, we're here to help!</p>
             </div>
             <ServiceList/>
+        </div>
             <Target/>
+        <div className='main-content'>
             <Process/>
         </div>
             <Pricing/>

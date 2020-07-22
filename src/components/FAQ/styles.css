@@ -40,3 +40,13 @@
 .faq-summary {
     margin-left: 4rem;
 }
+
+.faq-question {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.faq-area {
+    width: 45rem!important;
+}

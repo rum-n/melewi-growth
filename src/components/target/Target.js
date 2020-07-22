@@ -42,7 +42,6 @@ const Target = () => {
             <div className='target-list'>
                 <div className='target-card'>
                     <h3>Marketing & Ad teams</h3>
-                    {/* <img src={marketing} alt='Marketing'/> */}
                     <Lottie options={teamworkOptions} height={250} width={250} />
                     <p>Too often we see marketing teams in organizations being occupied by designing endless brochures, creating visuals for social media posts, or the company's latest t-shirt line.</p>
                     <p>Let us handle the boring stuff and move those pixels around, while you focus on the bigger picture - how to bring your product to market.</p>
@@ -54,7 +53,6 @@ const Target = () => {
                 </div>
                 <div className='target-card'>
                     <h3>BD & Sales teams</h3>
-                    {/* <img src={sales} alt='Sales'/> */}
                     <Lottie options={teamworkOptions2} height={250} width={250} />
                     <p>Do you feel like you're spending more time creating PowerPoint presentation, than actually pitching in front of potential clients?</p>
                     <p>Focus on what you do best and we'll make sure you have a secret weapon - an awesome presentation, tailored to your target audience that will make them unable to refuse your offer!</p>
@@ -66,7 +64,6 @@ const Target = () => {
                 </div>
                 <div className='target-card'>
                     <h3>Design & Dev teams</h3>
-                    {/* <img src={design} alt='Design'/> */}
                     <Lottie options={teamworkOptions3} height={250} width={250} />
                     <p>If your design team is feeling stretched between new design projects coming in and constant revision requests from ongoing ones, our team is here to help!</p>
                     <p>We'll become like an extension of your team, fitting right into your work process to deliver the designs you need. That way, you can focus on what's important   .</p>

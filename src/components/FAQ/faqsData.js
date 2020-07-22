@@ -16,7 +16,7 @@ export default [
         "answer": "Design projects can cost from a $1,000 to tens of thousands of dollars. From our experience, as a team creating designs since 2012, a PowerPoint presentation can cost anywhere between $500 and $1,500+, while a logo design & branding usually ranges from $3,000 to $5,000."
     },
     {
-        "question": "I don't see a plan that suits me. Can we discuss a custom solution?",
+        "question": "I don't see a plan for me. Can we discuss a custom solution?",
         "answer": "Absolutely! We started out as a design agency and this is still something we do - creating custom designs for clients, big and small. Reach out to us and we'll talk about what you need and how we can help!"
     },
     {

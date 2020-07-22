@@ -1,5 +1,5 @@
 import React from 'react';
-import { NavLink, Link } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import './styles.css';
 import logo from '../../img/logo.png';
 
@@ -14,7 +14,7 @@ const Navigation = () => {
         <nav>
             <ul className='menu'>
                 <li><a href='#services'>How we can help</a></li>
-                <li><NavLink to='/case-studies'>Case Studies</NavLink></li>
+                {/* <li><NavLink to='/case-studies'>Case Studies</NavLink></li> */}
                 <li><a href='#pricing'>Pricing</a></li>
                 <li><a href='https://melewi.net/blog'>Blog</a></li>
                 {/* <li><NavLink to='/affiliates'>Affiliates</NavLink></li> */}

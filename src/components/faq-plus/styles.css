@@ -1,0 +1,15 @@
+.plus-wrapper {
+    background-color: #000000;
+    opacity: 0.2;
+    border-radius: 50%;
+    width: 32px;
+    height: 32px;
+    display: flex;
+    justify-content: center;
+    margin-top: 0.5rem;
+}
+
+.plus-wrapper p {
+    font-size: 1.5rem;
+    margin: 0;
+}

@@ -8,35 +8,39 @@ const Footer = () => {
         <footer>
             <div className='footer-logo'>
                 <img src={logo} alt='Melewi Logo'/>
-                <p className='credits'>Created by <a href='https://melewi.net'>Melewi</a> © 2020. <br/> All rights reserved.</p>
+                <h2>Creating business-winning prodcuts your users love.</h2>
             </div>
             <div className='footer-menu'>
-                <Link to='/services'><h3>Our services</h3></Link>
-                <ul>
-                    <li>Web Design</li>
-                    <li>Mobile Design</li>
-                    <li>Frontend Dev</li>
-                    <li>Branding & Logo design</li>
-                    <li>Presentation Design</li>
-                    <li>Marketing Design</li>
-                </ul>
-            </div>
-            <div className='blog-feature'>
-                <Link to='/pricing'><h3>Pricing</h3></Link>
-                <Link to='case-studies'><h3>Case Studies</h3></Link>
-                <h3>Featured from our blog</h3>   
-                <ul>
-                    <li><a href='https://melewi.net/blog/2016/10/11/4-things-to-think-about-before-creating-your-product/'>4 Things to Think About Before Creating Your Product</a></li>
-                    <li><a href='https://melewi.net/blog/2019/10/09/how-to-reduce-churn-during-a-major-redesign/'>How to Reduce Churn During a Major Redesign</a></li>
-                    <li><a href='https://melewi.net/blog/2018/10/23/designing-products-for-users-around-the-world/'>Designing products for users around the world</a></li>
-                    {/* <li><a href='https://melewi.net/blog/2018/10/04/does-anyone-still-use-snapchat/'>Does anyone still use Snapchat?</a></li> */}
-                </ul>
-            </div>
-            <div className='footer-cta'>
-                <h3>Want to know more?</h3>
-                <a href='https://cal.mixmax.com/rumenmanev/30'><button>Book a call</button></a>
-                <h3>Want to join the team?</h3>
-                <button>Apply here</button>
+                <div className='address'>
+                    <p>30 Duxton Rd, #02-00, <br/>Singapore 089494, <br/>hello@melewi.net</p>
+                </div>
+                <div className='quick-links'>
+                    <p>Quick Links</p>
+                    <ul>
+                        <li>Pricing</li>
+                        <li>Blog</li>
+                        <li>Affiliates</li>
+                    </ul>
+                </div>
+                <div className='footer-services-1'>
+                    <p>Our Services</p>
+                    <ul>
+                        <li>Web Design</li>
+                        <li>Mobile Design</li>
+                        <li>Frontend Dev</li>
+                    </ul>
+                </div>
+                <div className='footer-services-2'>
+                    <ul>
+                        <li>Branding & Logo design</li>
+                        <li>Presentation Design</li>
+                        <li>Marketing Design</li>
+                    </ul>
+                </div>
+                <div className='social'>
+                    <h3>Want to know more?</h3>
+                    <h3 className='footer-cta'><a href='https://cal.mixmax.com/rumenmanev/30'>Book a call.</a></h3>
+                </div>
             </div>
         </footer>
     )

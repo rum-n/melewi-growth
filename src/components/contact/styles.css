@@ -1,7 +1,16 @@
 .contact-wrapper {
-    margin-top: 5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background: #eff2fc;
+    padding-top: 5rem;
+    padding-bottom: 20rem;
 }
 
-.contact-wrapper h2 {
-    font-size: 2rem;
+.contact-title span {
+    color: #FF517B;
+}
+
+.contact-title {
+    font-size: 3.5rem;
 }
