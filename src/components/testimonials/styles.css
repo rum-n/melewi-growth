@@ -25,6 +25,23 @@
     padding-right: 2rem;
 }
 
+.testimonial-client-details {
+    display: flex;
+    flex-direction: column;
+}
+
+.client {
+    display: flex;
+    flex-direction: row;
+}
+
+.client img {
+    width: 30px;
+    height: 30px;
+    margin-top: 2rem;
+    margin-left: 2rem;
+}
+
 .testimonial p{
     padding: 0rem 1.5rem 2rem 2rem;
     line-height: 1.5rem;
