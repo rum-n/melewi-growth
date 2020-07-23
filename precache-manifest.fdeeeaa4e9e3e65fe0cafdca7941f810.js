@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "542d6fbce4fee89bbc2e045f2f0c0929",
+    "revision": "ce686f792a77640771dbb60a5df38e44",
     "url": "/melewi-growth/index.html"
   },
   {
-    "revision": "b6a0e04d974ac923b5ff",
-    "url": "/melewi-growth/static/css/main.02146c4a.chunk.css"
+    "revision": "704b06d3336e1635a8ec",
+    "url": "/melewi-growth/static/css/main.60a41749.chunk.css"
   },
   {
-    "revision": "bf82d5f6f672d84e916e",
-    "url": "/melewi-growth/static/js/2.8902d33f.chunk.js"
+    "revision": "c50ad0cbdcdee9183808",
+    "url": "/melewi-growth/static/js/2.55b77f53.chunk.js"
   },
   {
     "revision": "492d7e05a4c2e81da7932422a4d31130",
-    "url": "/melewi-growth/static/js/2.8902d33f.chunk.js.LICENSE.txt"
+    "url": "/melewi-growth/static/js/2.55b77f53.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "b6a0e04d974ac923b5ff",
-    "url": "/melewi-growth/static/js/main.44ffd8f2.chunk.js"
+    "revision": "704b06d3336e1635a8ec",
+    "url": "/melewi-growth/static/js/main.8640d895.chunk.js"
   },
   {
     "revision": "91ff4461991e0a654401",
