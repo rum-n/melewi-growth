@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/melewi-growth/precache-manifest.fef4e8325e4030f34f453ed5c8c30283.js"
+  "/melewi-growth/precache-manifest.b808eb2dd094b9ddaabed292bbef607d.js"
 );
 
 self.addEventListener('message', (event) => {
