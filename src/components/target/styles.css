@@ -73,4 +73,7 @@
     .target-title {
         font-size: 2rem;
     }
+    .target-list button {
+        margin-left: 3rem;
+    }
 }

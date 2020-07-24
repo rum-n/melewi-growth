@@ -22,7 +22,7 @@ const Home = () => {
 
     return (
     <div>
-        <h1 className='title'>Super-fast, <br/>business-focused <br/> <span id='spin'></span><br/>for growing companies</h1>
+        <h1 className='title'>Super-fast, <br/>business-focused <br/> <span className='mobile-title'>on-demand design</span><span id='spin'></span><br/>for growing companies</h1>
         <div className='main-content'>
             
             <div className='lottie'>

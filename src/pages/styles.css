@@ -8,6 +8,10 @@
     font-weight: 800;
 }
 
+.mobile-title {
+  display: none;
+}
+
   @media screen and (max-width: 1200px) {
     .lottie {
       display: none;
@@ -191,19 +195,22 @@
       font-size: 1.8rem;
       line-height: 2rem;
       margin-left: 3rem;
+      margin-top: 3rem;
   }
   .header-buttons {
     display: flex!important;
     flex-direction: column!important;
-    margin-left: 2rem!important;      
+    margin-left: 2rem!important;  
   }
   .btn-cta {
     font-size: 0.8rem!important;
+    padding: 1rem 4rem;
   }
   .btn-see-more {
     font-size: 0.8rem!important;
     margin-left: 0!important;
     margin-top: 1rem;
+    padding: 1rem 2rem;
   }
   .pricing-options {
     flex-direction: column;
@@ -229,5 +236,23 @@
   .pricing-content p {
     text-align: center;
     font-size: 0.9rem;
+    padding: 0 1rem;
+  }
+  #spin {
+    display: none;
+  }
+  .mobile-title {
+    color: #FF517B;
+    display: inline;
+  }
+  .clients-intro h2 {
+    font-size: 1.5rem;
+    text-align: left;
+  }
+  .clients-intro p {
+    text-align: left;
+  }
+  .clients-intro br{
+    display: none;
   }
 }
