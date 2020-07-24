@@ -1,6 +1,5 @@
 import React from 'react';
 import Clients from './../components/clients/Clients';
-import { Link } from 'react-router-dom';
 import ServiceList from './../components/serviceList/ServiceList';
 import Target from './../components/target/Target';
 import Pricing from './Pricing';
