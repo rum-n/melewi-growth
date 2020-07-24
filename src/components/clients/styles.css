@@ -10,7 +10,7 @@
 }
 
 .grey-logo {
-    width: 3rem;
+    width: 1.5rem;
     margin: auto;
 }
 
@@ -20,12 +20,28 @@
     padding: 0 1rem;
 }
 
-@media screen and (max-width: 1200px) {
+.small-clients {
+    display: none;
+}
+
+@media screen and (max-width: 650px) {
     .clients {
         margin-top: 4rem;
         margin-bottom: 2rem;
+        display: inline-block;
+        height: auto;
     }
     .clients img {
         padding: 0;
+    }
+    .grey-logo {
+        width: 1rem;
+        margin-bottom: 2rem;
+    }
+    .small-clients {
+        display: inline-block;
+    }
+    .clients-big {
+        display: none;
     }
 }

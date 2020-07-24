@@ -50,3 +50,31 @@
 .faq-area {
     width: 45rem!important;
 }
+
+@media screen and (max-width: 650px) {
+    .faq-wrapper {
+        flex-direction: column;
+        margin-top: 5rem;
+    }
+    .faq-area {
+        width: auto!important;
+        margin-left: 1rem;
+    }
+    .faq-area h2{
+        font-size: 1em;
+        text-align: left;
+    }
+
+    .faq-area p{
+        font-size: 1.2;
+    }
+    .faq-summary {
+        margin-left: 1rem;
+    }
+    .css-1htfx3z {
+        width: 20rem!important;
+    }
+    .faq {
+        width: 20rem;
+    }
+}

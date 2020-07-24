@@ -92,26 +92,32 @@ footer a:hover {
 @media screen and (max-width: 1200px) {
     footer {
         display: inline-block;
-        padding: 1.5rem;
+        padding: 2rem;
+        width: 70%;
     }
-    .footer-menu,
-    .blog-feature,
-    .footer-cta {
-    margin-left: 0.5rem;
-    margin-top: 2rem;
+    .footer-services-2 {
+        margin-top: -1rem;
+        margin-right: 0rem;
+    }
+    .footer-menu {
+        margin-left: 0;
     }
     .footer-logo {
         margin-left: 0;
     }
-    footer img {
-        width: 10rem;
-        height: auto;
-        margin-left: 0.5rem;
+    .footer-logo img {
+        margin-left: 0;
     }
-    .credits {
-        margin-left: 0.5rem;
+    .footer-logo h2 {
+        margin-left: 0;
     }
-    footer button {
-        font-size: 0.8rem;
+    .footer-menu {
+        display: inline;
+    }
+    .social {
+        text-align: left;
+    }
+    .address {
+        margin-left: 0;
     }
 }

@@ -26,4 +26,8 @@ hr {
         padding: 2rem 2rem;
         line-height: 1.2rem;
     }
+    .about-footer {
+        margin-top: 2rem;
+        padding-bottom: 0;
+    }
 }

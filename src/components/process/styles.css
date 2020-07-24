@@ -68,3 +68,18 @@
     margin-top: 6rem;
     background: #fff;
 }
+
+@media screen and (max-width: 650px) {
+    .process-list {
+        flex-direction: column;
+        width: 100%;
+    }
+    .step-1,
+    .step-2,
+    .step-3,
+    .step-4 {
+        height: 9rem;
+        width: 14rem;
+        margin: 1rem auto;
+    }
+}
